@@ -1,0 +1,15 @@
+<div class="header-hero">
+	<div class="header-info">
+		<h1 class="header-name">{{header.name}}</h1>
+		<p class="header-goal">{{header.goalLife}}</p>
+	</div>
+
+	<img [src]="header.photoUrl" alt="Foto de perfil" class="pfp">
+
+	<div class="header-contact">
+		<a [href]="'mailto:' + header.email">{{header.email}}</a>
+		<span>{{header.phoneNumber}}</span>
+		<span>{{header.location}}</span>
+		<span>{{header.socialNetwork}}</span>
+	</div>
+</div>
