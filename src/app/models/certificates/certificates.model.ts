@@ -1,7 +1,7 @@
 export class Certificates{
 	id?: string;
 	date?: string = 'date';
-	title?: string = 'title';
+	tittle?: string = 'tittle';
 	institution?: string = 'institution';
 	description?: string = 'description';
 }
